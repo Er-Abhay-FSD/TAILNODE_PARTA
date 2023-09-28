@@ -29,47 +29,6 @@ Follow these steps to get the project up and running.
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/dummyapi-data-fetch.git
-   cd dummyapi-data-fetch
-```
-
-Below is a README.md file for your project that includes functional requirements and code examples:
-
-markdown
-Copy code
-# DummyAPI Data Fetch and Store Project
-
-This project is a Node.js application that fetches data from the [DummyAPI](https://dummyapi.io/) and stores it in a MongoDB database.
-
-## Functional Requirements
-
-1. **Login and Create `app_id`**:
-   - Before using the APIs, you need to register on the [DummyAPI](https://dummyapi.io/) website and create your `app_id`. Save this `app_id` for using it in the project.
-
-2. **Fetch Users Data**:
-   - Fetch users' data from the DummyAPI using the following endpoint:
-     - API Endpoint: `https://dummyapi.io/data/v1/user`
-     - Store this data in the `users` table in the database.
-
-3. **Fetch Users' Posts Data**:
-   - Fetch users' posts data from the DummyAPI for each user and store it in the database. Use the following endpoint for each user:
-     - API Endpoint: `https://dummyapi.io/data/v1/user/{{user_id}}/post`
-     - Replace `{{user_id}}` with the actual user ID.
-     - Store the posts data in the database.
-
-## Getting Started
-
-Follow these steps to get the project up and running.
-
-### Prerequisites
-
-- Node.js installed on your machine.
-- MongoDB installed and running.
-
-### Installation
 
 1. Clone the repository:
 
